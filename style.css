@@ -1,0 +1,252 @@
+nav{
+    background: rgb(245, 62, 62);
+    height: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li:hover{
+    background: rgb(167, 31, 31);
+    height: 60px;
+}
+nav form i{
+    color: white;
+    padding: 10px;
+}
+
+
+
+/*Navbar menu*/
+.navbar .dropdown-menu div[class*="col"] {
+    margin-bottom:1rem;
+ }
+ 
+ .navbar .dropdown-menu {
+   border-radius: 0%;
+   background-color:rgb(245, 62, 62)!important;
+ }
+ 
+ /* breakpoint and up - mega dropdown styles */
+ @media screen and (min-width: 992px) {
+   
+   /* remove the padding from the navbar so the dropdown hover state is not broken */
+ .navbar {
+   padding-top:0px;
+   padding-bottom:0px;
+ }
+ 
+ /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+ .navbar .nav-item {
+   padding:.5rem .5rem;
+   margin:0 .25rem;
+ }
+ 
+ /* makes the dropdown full width  */
+ .navbar .dropdown {position:static;}
+ 
+ .navbar .dropdown-menu {
+   width:130%;
+   left:-1px;
+   right:0;
+ /*  height of nav-item  */
+   top:57px;
+ }
+   
+   /* shows the dropdown menu on hover */
+ .navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+   display:block!important;
+ }
+   
+   .navbar .dropdown-menu {
+     border: 1px solid rgba(0,0,0,.15);
+     background-color: #fff;
+   }
+ }   
+ 
+ .container ul li a{
+     padding: 2px;
+     margin-left: -250px;
+ }
+ 
+ .imagediv1{
+     margin-top: 30px;
+     margin-left: 200px;
+     width: 55%;
+ }
+ 
+ .box img{
+    width: 100%;
+    height: 420px;
+ }
+ .imagediv1 .box .imgbox{
+    position: relative;
+    overflow: hidden;
+ }
+
+ .imagediv1 .box .imgbox img{
+     
+     transition: transform 1s;
+ }
+ .imagediv1 .box:hover .imgbox img{
+     transform: scale(1.2);
+ }
+ 
+ .imagediv1 a{
+     color: black;
+     font-size: 22px;
+     font-weight: bold;
+ }
+ .imagediv1 a:hover{
+     text-decoration: none;
+     color: rgb(245, 62, 62);
+ }
+ .sideimgbox{
+    width: 270px;
+    height: 120px; 
+    float: right;
+    margin-top: -38.8%;
+    margin-right: 125px;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .sidebox .sideimgbox img{
+    width: 270px;
+    height: 120px;
+    float: right;
+    margin-top: -0.3%;
+    transition: transform 1s;
+ }
+ .sidebox .sideimgbox img:hover{
+     transform: scale(1.2);
+ }
+ .sidebox a{
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-top: -29.5%;
+    margin-right: 120px;
+ }
+ .sidebox a:hover{
+    text-decoration: none;
+    color: rgb(245, 62, 62);
+ }
+ .sidebox p{
+     float: right;
+     margin-top: -25.5%;
+     margin-right: 298px;
+ }
+
+ .sideimgbox1{
+    width: 270px;
+    height: 120px; 
+    float: right;
+    margin-top: -23%;
+    margin-right: 125px;
+    position: relative;
+    overflow: hidden;
+ }
+ .sidebox1 .sideimgbox1 img{
+    width: 270px;
+    height: 120px;
+    float: right;
+    margin-top: -0.3%;
+    transition: transform 1s;
+ }
+ .sidebox1 .sideimgbox1 img:hover{
+     transform: scale(1.2);
+ }
+ .sidebox1 a{
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-top: -13.7%;
+    margin-right: 120px;
+ }
+ .sidebox1 a:hover{
+    text-decoration: none;
+    color: rgb(245, 62, 62);
+ }
+ .sidebox1 p{
+     float: right;
+     margin-top: -9.5%;
+     margin-right: 298px;
+ }
+ .divhead1{
+   font-size: 20px;
+   color: red;
+   font-weight: bold;
+   margin-top: 40px;
+   margin-left: 200px;
+   margin-right: 980px;
+   text-align: center;
+   border-bottom: 2px solid black;
+   border-right: 2px solid black;
+   border-top: 2px solid black;   
+ }
+ .divcontent1{
+    width: 1080px;
+    min-height: 500px;
+    margin-top: -70px;    
+    margin-left: 190px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ .divcontent1 .contentbox{
+   position: relative;
+   width: 340px;
+   height: 200px;
+   background: #fff;
+   margin: 10px;
+   margin-top: 100px;
+   box-sizing: border-box;
+   display: inline-block;
+ }
+ .divcontent1 .contentbox .contentimgbox{
+   position: relative;
+   overflow: hidden;
+ }
+ .divcontent1 .contentbox .contentimgbox img{
+   max-width: 100%;
+   transition: transform 2s;
+ }
+ .divcontent1 .contentbox:hover .contentimgbox img{
+    transform: scale(2);
+ }
+ .divcontent1 .contentbox a{
+  color: black;
+  font-weight: bold;
+ }
+ .divcontent1 .contentbox a:hover{
+  text-decoration: none;
+  color: rgb(245, 62, 62);
+ }
+ .divcontent2{
+  width: 1080px;
+  min-height: 500px;
+  background: black;
+  margin-top: 110px;    
+  margin-left: 190px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.divhead2{
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 20px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 2px solid white;   
+}
