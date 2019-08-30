@@ -1,5 +1,5 @@
 nav {
-  background: rgb(245, 62, 62);
+  background: rgb(253, 115, 2);
   height: 60px;
 }
 
@@ -16,7 +16,7 @@ nav ul li a:hover {
 }
 
 nav ul li:hover {
-  background: rgb(255, 219, 88);
+  background: rgb(212, 99, 6);
   /* height: 60px; */
 }
 
@@ -33,7 +33,7 @@ nav form i {
 
 .navbar .dropdown-menu {
   border-radius: 0%;
-  background-color: orange!important;
+  background-color:  rgb(253, 115, 2)!important;
 }
 
 /* breakpoint and up - mega dropdown styles */
@@ -102,14 +102,14 @@ nav form i {
 }
 
 .imagediv1 a {
-  color: black;
+  color: white;
   font-size: 22px;
   font-weight: bold;
 }
 
 .imagediv1 a:hover {
   text-decoration: none;
-  color: rgb(245, 62, 62);
+  color: rgb(253, 115, 2);
 }
 
 .sideimgbox {
@@ -135,7 +135,7 @@ nav form i {
 }
 
 .sidebox a {
-  color: black;
+  color: white;
   font-weight: bold;
   float: right;
   margin-top: -29.5%;
@@ -144,7 +144,7 @@ nav form i {
 
 .sidebox a:hover {
   text-decoration: none;
-  color: rgb(245, 62, 62);
+  color:  rgb(253, 115, 2);
 }
 
 .sidebox p {
@@ -176,7 +176,7 @@ nav form i {
 }
 
 .sidebox1 a {
-  color: black;
+  color: white;
   font-weight: bold;
   float: right;
   margin-top: -13.7%;
@@ -185,7 +185,7 @@ nav form i {
 
 .sidebox1 a:hover {
   text-decoration: none;
-  color: rgb(245, 62, 62);
+  color:  rgb(253, 115, 2);
 }
 
 .sidebox1 p {
@@ -196,7 +196,7 @@ nav form i {
 
 .divhead1 {
   font-size: 20px;
-  color: red;
+  color: white;
   font-weight: bold;
   margin-top: 40px;
   margin-left: 200px;
@@ -243,19 +243,19 @@ nav form i {
 }
 
 .divcontent1 .contentbox a {
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
 .divcontent1 .contentbox a:hover {
   text-decoration: none;
-  color: rgb(245, 62, 62);
+  color:  rgb(253, 115, 2);
 }
 
 .divcontent2 {
   width: 1080px;
   min-height: 500px;
-  background: black;
+  background: rgb(253, 115, 2);
   margin-top: 110px;
   margin-left: 190px;
   display: flex;
@@ -265,7 +265,7 @@ nav form i {
 
 .divhead2 {
   font-size: 20px;
-  color: red;
+  color: white;
   font-weight: bold;
   margin-top: 50px;
   margin-left: 20px;
@@ -463,4 +463,21 @@ nav form i {
 
 .margin250 {
   margin-left: -250px;
+}
+
+.megamenuimgdiv{
+  margin-top: -20px;
+  margin-left: 140px;
+}
+.megamenuimgdiv img{
+  width: 20%;
+  padding: 6px;
+}
+
+/*HOME PAGE*/
+
+.homeimgdiv1 {
+  margin-top: 30px;
+  margin-left: 200px;
+  width: 70%;
 }
